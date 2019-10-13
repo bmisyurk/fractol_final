@@ -14,7 +14,6 @@
 
 void	out_error(char *str)
 {
-	ft_putstr_fd("Error: ", 1);
 	ft_putstr_fd(str, 1);
 	ft_putstr("\n");
 	exit(1);

@@ -88,7 +88,7 @@ OBJ = $(SRC:.c=.o)
 all: $(NAME)
 
 $(NAME):
-		@cc $(CFLAGS) -c $(SRC) 
+		@gcc $(CFLAGS) -c $(SRC) 
 		@ar rc $(NAME) $(OBJ)
 		@echo "     *****     libft complied     *****     "
 

@@ -1,9 +1,18 @@
 NAME		= fractol
 SRCS		=	main.c \
+				mandelbrot.c \
+				tricorn.c \
+				celtic.c \
+				julia.c \
+				ship.c \
+				mandelbar.c \
+				heart.c \
 				out_error.c \
 				key_hooks.c \
-				rgb.c \
 				mlx.c \
+				fract_init.c \
+				color.c \
+				text.c \
 
 SRCO		= $(SRCS:.c=.o)
 FLAGS		= -Wall -Wextra -Werror
